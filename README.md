@@ -15,5 +15,5 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 7. [Played Deal] - Used to store played deals (not yet created)
 
 ## Common Standards
-A. [data-conversion-api] (https://github.com/online-bridge-hackathon/data-conversion-api) - An API for converting different file formats (pbn, lin) to JSON
-B. [data-formats] (https://github.com/online-bridge-hackathon/data-formats) - Specifications and Example JSONs
+* [data-conversion-api] (https://github.com/online-bridge-hackathon/data-conversion-api) - An API for converting different file formats (pbn, lin) to JSON
+* [data-formats] (https://github.com/online-bridge-hackathon/data-formats) - Specifications and Example JSONs
