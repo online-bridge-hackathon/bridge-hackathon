@@ -1,5 +1,7 @@
 # bridge-hackathon
 
+[![Join the chat at https://gitter.im/bridge-hackathon/community](https://badges.gitter.im/bridge-hackathon/community.svg)](https://gitter.im/bridge-hackathon/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![License][license-image]][license]
 [![Join the chat at https://gitter.im/online-bridge-hackathon/][gitter-image]][gitter]
 
