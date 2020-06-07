@@ -6,7 +6,7 @@
 Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2020. The hackathon participants created a modular suite of cloud-native services (projects) to build multiple, modern end user applications, such as a Bridge game server (improving on the work of BBO, OK Bridge, BCL, FunBridge, etc).
 
 ## Projects
-1. [DDS](https://github.com/online-bridge-hackathon/DDS) - An api which returns DDS results for a given board
+1. [DDS](https://github.com/online-bridge-hackathon/DDS) - An api that returns DDS results for a given deal or partial deal
 2. [Deal](https://github.com/online-bridge-hackathon/Deal) - A web service that accepts request by APIs and returns 1+ bridge deals
 3. [play-engine](https://github.com/online-bridge-hackathon/play-engine) - A play engine using services to enable users to play bridge online
 4. [OCR](https://github.com/online-bridge-hackathon/OCR) - Optical Character Recognition API that converts deal images to text format
