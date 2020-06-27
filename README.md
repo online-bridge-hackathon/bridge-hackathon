@@ -142,6 +142,8 @@ This would be a superset of the existing isolated repositories, bringing all our
 
 ## Contributors ✨
 
+Developer documentation is available at [README-developers.md](README-developers.md)
+
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
