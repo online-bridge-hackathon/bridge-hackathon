@@ -26,7 +26,7 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 ## Roadmap
 ![Bridge Hackathon Roadmap](https://github.com/online-bridge-hackathon/bridge-hackathon/blob/master/Bridge%20Hackathon%20Roadmap.png)
 
-### A platform where...
+### The Bridge Hackathon is in the process of building a complete modern Bridge platform where...
 
 ##### ...bridge players 
 - can play an informal match with friends
@@ -43,10 +43,14 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 - can join an interactive bridge class with a teacher
 - can find pro players and teachers easily and eaily message them and/or book a session
 
-#### ...bridge organisers, particularly clubs (local, regional, national, international)
+#### ...Bridge clubs (local, regional, national, international) and organisers
 - can organiser their online bridge clubs
 - can hold one-off matches
 - can set up and manage club chat groups for players and organisers that persists across logins
+- can organise player payments completely independently from the platform
+- can enable tournament sign up pages (updated when played) and download player lists for club accounting reasons
+- can hire the "venue" according to our freemium model (free or micro-payments)
+  _This a low-profit platform with cloud infrastructure costs - all contributors and leads are volunteers)_
 
 #### ...Tournament Directors (TD)
 [ref: TD Feature Requests](https://docs.google.com/document/d/1JAYtRJsGcjBOtSQjE7F4FGEm0vxa3Byd8o7eA9-5zBU/edit)
@@ -92,6 +96,17 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 - can display uploaded notes in the group (class, table)
 - can manipulate the deal mid-lesson ("If we put the ⧫K in this hand, let’s see what happens…")
 - can cut the movement short, if needed (e.g. juniors, novices)
+
+#### ...Software Developers (backend, frontend, UI/UX, DevOps, systems architects, standards)
+- can contribute to our globally available, open source code, docs, designs (MIT license)
+- can use our globally available, open source code, docs, designs (MIT license)
+- can build new projects within the Bridge Hackathon framework and garner support and resources
+- can join the leadership of Bridge Hackathon (with contributions, skills, commitment)
+
+#### ...3rd party businesses (NBOs, existing Bridge platforms, entrepreneurs, app developers, ...)
+- can do everything in the Bridge clubs list
+- can do everything in the Software Developers list
+- can access and use the dedicated, independent Bridge component services (Deal, DDS, Converter, OCR, etc) with our API freemium model (free or micro-payments)
 
 
 ## Contributors ✨
