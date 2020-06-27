@@ -41,27 +41,57 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 - can chat via video with their table group
 - can import or link groups of friends from other chat platforms (WhatsApp, Hangouts, WeChat, Messenger) 
 - can join an interactive bridge class with a teacher
+- can find pro players and teachers easily and eaily message them and/or book a session
 
 #### ...bridge organisers, particularly clubs (local, regional, national, international)
 - can organiser their online bridge clubs
 - can hold one-off matches
-- can run 
+- can set up and manage club chat groups for players and organisers that persists across logins
 
-#### ...bridge teachers
+#### ...Tournament Directors (TD)
+[ref: TD Feature Requests](https://docs.google.com/document/d/1JAYtRJsGcjBOtSQjE7F4FGEm0vxa3Byd8o7eA9-5zBU/edit)
+- can use a dashboard of scores and progress (inc pace) of tables in play
+- can run events with seeding, stratification & handicapping
+- can determine start lineups (re: seeding)
+- can run multi-session events with carry-forwards
+- can run Pairs tournaments with Swiss, Mitchell (two-winner), Howell (one-winner) movements
+- can select Pairs scoring method: Cross IMPS, VPs, Butler (when IMP-scored), Handicaps/stratified events
+- can get “pair datum” results and ranking using desired scoring method (Butler, cross IMPs)
+- can run Teams tournaments with Swiss, Multiple Teams (4 or 8), Knockouts, Leagues
+- can select Teams scoring method: IMPS, Aggregate, Continuous VPs, Discrete VPs, Point-a-Board, Hybrid
+- can select non-Neuberg factoring on boards with artificial scores
+- can enable Teams to change lineups during a session
+- are not limited by enforced sections (there will be none by default, but can be created if needed)
+- have the ability to set a change of opponents at half time
+- can set live feed and results display to be delayed until all tables have finished a board
+- can cut the movement short, if needed (e.g. juniors, novices)
+- can set up Tournament chat groups that can be open and closed at any time chosen
+- can record and replay chat/video messages to any group they are a member of (table, tournament)
+- ability to award procedural penalties
+- ability to add a pair of robots if there is a half table
+- can receive specific alerts from players/kibs at tables (e.g. slow play, bad behaviour)
+- get quick access to a full log of table actions (bid, play, alerts, table talk)
+- can set adjustable "kick" period where slow players are auto-kicked - if that feature is required
+- can award weighted scores, split scores and make Neuberg adjustments for boards that include artificial scores
+- can define the score correction window
+- can output results in various formats: USEBIO, Text, HTML, CSV, JSON
+
+
+#### ...Bridge Teachers
+[ref: Teacher Feature Requests](https://docs.google.com/document/d/1tQTpZuHvaFlMZuE2xDgs675IekY7iwEfoomUzxmjXlk/edit)
 - can schedule or create ad-hoc classes of multiple tables
 - can set up a class (group)
 - can invite learners to join a class by URL (link)
 - can assign learners to a table or allow them to choose their own
 - can generate specific sets of deals and store them on the platform for retrieval any time
 - can easily choose deals (random or specific) for each or all the tables
+- can with "one click" do multiple saved actions: send learners to assigned seats, deals a prepared hand to bid and play, returns to the class/theatre at the end
 - can chat via text and emojii with any group (class, table)
 - can chat via video with any group (class, table)
 - can display hands dynamically in the group (class, table)
-
-
-
-
-
+- can display uploaded notes in the group (class, table)
+- can manipulate the deal mid-lesson ("If we put the ⧫K in this hand, let’s see what happens…")
+- can cut the movement short, if needed (e.g. juniors, novices)
 
 
 ## Contributors ✨
