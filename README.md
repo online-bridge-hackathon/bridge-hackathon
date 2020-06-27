@@ -26,7 +26,38 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 ## Roadmap
 ![Bridge Hackathon Roadmap](https://github.com/online-bridge-hackathon/bridge-hackathon/blob/master/Bridge%20Hackathon%20Roadmap.png)
 
-### The Bridge Hackathon is in the process of building a complete modern Bridge platform where...
+
+### These are some of the services we plan to deliver:
+
+#### A fully-featured, modern online bridge platform
+
+Play with and against others in a wide variety of formats at no charge.
+
+We also plan to provide this service to bridge organizations, companies, and researchers where they can market it under their own names, free for moderate usage and with micro-payments for high usage.
+
+#### A double-dummy solver
+
+Enter a deal onto a web page and see the number of tricks declarer can take from each position with each trump suit, with best play and defense. Step through the play trick by trick to see how.
+
+#### A deal formatter
+
+Enter an auction and a deal on a web page and have it rendered for you in a variety of formats, suitable for emailing (text), posting on a website (HTML), or typesetting (Postscript or PDF.)
+
+#### A deal generator
+
+Request a number of deals, randomly dealt or to your specifications, for use in a tournament or bidding practice.
+
+#### An optical card recognizer
+
+Take a photo of a deal after it's been played and use the results to generate hand records, save in a database, or format with the deal formatter above.
+
+Set up a table video camera to record all bids and play, for live VuGraph, recorded viewing. TDs can use it to monitor matches and avoid problems while researchers can use it for analysis.
+
+#### A universal bridge results database
+
+This would be a superset of the existing isolated repositories, bringing all our bridge data together for better user experiences, such as player development and research. Retrieve any deal that's been played online or face to face, limited only by the data that's been added to the system. Look for your favorite stars or partners, or your own triumphs and tragedies. Compare your results to others. Look for which styles and conventions are most effective and why. Capture trends over time.
+
+### This is a list of our intended features where...
 
 ##### ...bridge players 
 - can play an informal match with friends
