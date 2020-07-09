@@ -26,7 +26,8 @@ Generally custom roles are defined in yaml files and user account emails are sto
 `gcloud iam roles create BridgeHackathonDevelopers --project=online-bridge-hackathon-2020 --file=devops/gcp-role-developer.yaml`
 
 ### describe a particular role 
-```gcloud iam roles describe --project=online-bridge-hackathon-2020 BridgeHackathonDevelopers
+```
+gcloud iam roles describe --project=online-bridge-hackathon-2020 BridgeHackathonDevelopers
 description: Custom role based on least privilege to be able to develop on GCP
 etag: BwWp9tPDv5c=
 includedPermissions:
