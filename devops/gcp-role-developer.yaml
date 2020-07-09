@@ -1,0 +1,13 @@
+name: projects/online-bridge-hackathon-2020/roles/BridgeHackathonDevelopers
+stage: ALPHA
+title: 'Bridge Hackathon : Developers'
+description: Custom role based on least privilege to be able to develop on GCP
+etag: BwWp9tPDv5c=
+includedPermissions:
+- billing.resourceCosts.get
+- container.apiServices.get
+- container.apiServices.list
+- container.clusters.get
+- container.clusters.getCredentials
+- resourcemanager.projects.get
+
