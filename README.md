@@ -18,6 +18,7 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 6. [Scores] - Accepts contract results and returns scores  (not yet created; name may change)
 7. [Storage] - Storage for played deals (not yet created; name may change)
 8. [Platform] - Play server where users can play bridge  (not yet created; name may change)
+9. [Robots] - A place our Robots will be developed and hang out! 
 
 ### Try out our services!
 Listed are current services on our Production clusters.
