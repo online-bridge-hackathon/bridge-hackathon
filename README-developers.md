@@ -47,17 +47,20 @@ commands for this repository.
 
 #### Creating a Personal Fork
 
-Go to the component page in the GitHub website. Click the *Fork* button in the top right-hand corner of the page. A dialog box will appear, asking where you want to create your fork. Click on your GitHib username. Once the process is complete, you’ll be taken to your forked copy of the repository.
+Go to the component page in the GitHub website. You can follow the
+[Forking Projects](https://guides.github.com/activities/forking/) guide.
 
 #### Adding the Personal Fork as a remote
 
-Git supports multiple remote repositories for a local working tree. The `git remote` command can be used to manage remote repositories. In most cases,
-`git remote add` is the only command required. `git remote` commands must be run from a working directory inside a local repository created by `git clone`.
+Git supports multiple remote repositories for a local working tree. `git remote`
+command can be used to manage remote repositories. In most cases,
+`git remote add` is the only command required. `git remote` commands require
+working directory inside a local repository created by `git clone`.
 
 `git remote add personal https://github.com/<username>/bridge-hackathon.git`
 
-URL is an example based on the default GitHub naming for a fork. You get the
-repository URL for your fork from its GitHub repository page.
+URL is an example based on default GitHub naming for a fork. You get the
+repository URL for your fork from the GitHub repository page.
 
 More details:
 * [Adding a remote](https://docs.github.com/en/github/using-git/adding-a-remote)
@@ -67,14 +70,14 @@ More details:
 
 You can create a new local branch from the latest code in the `origin/master`
 remote branch. Basing a new development branch on the latest code makes merging
-your changes easier.
+the changes easier.
 
 ```
 git fetch origin
 git checkout origin/master -b my_cool_new_feature
 ```
 
-The commands create a new local branch called `my_cool_new_feature` based on the
+Commands create a new local branch called `my_cool_new_feature` from the
 `origin/master` remote branch.
 
 #### Make All Commits Working (git bisect)
@@ -127,16 +130,3 @@ argument makes git modify the latest commit in the local branch.
 
 See more details about modifying history from
 [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
-
-#### Clean up after your changes are merged into the master branch
-
-After you merge your pull, GitHub will give you the option to delete your branch
-from the GitHub repository. Usually you will want to do so. Then, to delete your
-local branch and bring all the latest changes into your local repository:
-
-```
-git checkout master
-git branch -D my_cool_new_feature
-git pull --ff-only
-
-```
