@@ -1,0 +1,7 @@
+title: "Bridge Hackathon Leads : Billing"
+description: "Custom role based on least privilege to view all billing aspects"
+stage: ALPHA
+includedPermissions:
+- billing.resourceCosts.get  
+- billing.accounts.getSpendingInformation
+- resourcemanager.projects.get

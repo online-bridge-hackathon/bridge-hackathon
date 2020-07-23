@@ -1,9 +1,9 @@
 
-# DevOps readme
+# DevOps
 
 ## Overview
 
-We use deploy software to GCP which turns them into available online services
+We deploy software to GCP (Google Cloud Platform) and run cloud infrastructure there to enable availabl online services
 
 ## GCP
 
@@ -44,6 +44,7 @@ title: 'Bridge Hackathon : Developers'
 
 ### add knaves (Tech Leads) to roles
 #### custom roles
+knaves is a text file with one knave email address per line
 `for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=projects/online-bridge-hackathon-2020/roles/BridgeHackathonDevelopers ; done`
 
 #### predefined roles

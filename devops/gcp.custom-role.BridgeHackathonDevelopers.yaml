@@ -1,0 +1,12 @@
+description: Custom role based on least privilege to be able to develop on GCP
+etag: BwWqSVlL3wQ=
+includedPermissions:
+- billing.resourceCosts.get
+- container.apiServices.get
+- container.apiServices.list
+- container.clusters.get
+- container.clusters.getCredentials
+- resourcemanager.projects.get
+name: projects/globalbridge-app/roles/BridgeHackathonDevelopers
+stage: ALPHA
+title: 'Bridge Hackathon Developers'
