@@ -45,7 +45,11 @@ title: 'Bridge Hackathon : Developers'
 ### add knaves (Tech Leads) to roles
 #### custom roles
 knaves is a text file with one knave email address per line
-`for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=projects/online-bridge-hackathon-2020/roles/BridgeHackathonDevelopers ; done`
+```
+for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=projects/online-bridge-hackathon-2020/roles/BridgeHackathonDevelopers ; done
+```
 
 #### predefined roles
-` for role in compute.admin compute.loadBalancerAdmin ; do for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=roles/${role} ; done; done`
+```
+for role in compute.admin compute.loadBalancerAdmin ; do for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=roles/${role} ; done; done
+```
