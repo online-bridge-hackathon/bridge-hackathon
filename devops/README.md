@@ -46,7 +46,7 @@ title: 'Bridge Hackathon : Developers'
 #### custom roles
 knaves is a text file with one knave email address per line
 ```
-for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=projects/online-bridge-hackathon-2020/roles/BridgeHackathonDevelopers ; done
+for user in $(cat knaves) ; do gcloud projects add-iam-policy-binding online-bridge-hackathon-2020 --member=user:${user} --role=projects/globalbridge-app/roles/BridgeHackathonTechLeads ; done
 ```
 
 #### predefined roles
