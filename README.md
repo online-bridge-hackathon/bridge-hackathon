@@ -18,6 +18,30 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 6. [Scores] - Accepts contract results and returns scores  (not yet created; name may change)
 7. [Storage] - Storage for played deals (not yet created; name may change)
 8. [Platform] - Play server where users can play bridge  (not yet created; name may change)
+9. [Robots] - A place our Robots will be developed and hang out! 
+
+### Try out our services!
+Listed are current services on our Production clusters.
+
+#### Deal (Prod)
+Returns [UUID](http://www.rpbridge.net/7z68.htm)-encoded randon deals as a JSON object
+```
+curl https://deal.prod.globalbridge.app/api/deal
+```
+
+##### Converter (Prod)
+Accepts a PBN file (replace path with your own) and returns the conversion as a JSON object
+```
+curl -F "file=@/tmp/test.pbn" https://converter.prod.globalbridge.app/api/boards/test
+```
+
+#### DDS (Prod)
+Accepts a full hand encoded as a JSON object and returns the DDS result as a JSON object
+```
+curl --header "Content-Type: application/json" --request POST --data '{"hands":{"S":["D3", "C6", "DT", "D8", "DJ", "D6", "CA", "C3", "S2", "C2", "C4", "S9", "S7"],"W":["DA", "S4", "HT", "C5", "D4", "D7", "S6", "S3", "DK", "CT", "D2", "SK","H8"],"N":["C7", "H6", "H7", "H9", "CJ", "SA", "S8", "SQ", "D5", "S5", "HK", "C8", "HA"],"E":["H2", "H5", "CQ", "D9", "H4", "ST", "HQ", "SJ", "HJ", "DQ", "H3", "C9", "CK"]}}' https://dds.prod.globalbridge.app/api/dds-table/
+```
+
+
 
 ## Common Standards
 * [data-conversion-api] (https://github.com/online-bridge-hackathon/data-conversion-api) - An API for converting different file formats (pbn, lin) to JSON
@@ -141,6 +165,8 @@ This would be a superset of the existing isolated repositories, bringing all our
 
 
 ## Contributors ✨
+
+Developer documentation is available at [README-developers.md](README-developers.md)
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
