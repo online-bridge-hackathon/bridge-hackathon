@@ -48,7 +48,7 @@ curl --header "Content-Type: application/json" --request POST --data '{"hands":{
 * [data-formats] (https://github.com/online-bridge-hackathon/data-formats) - Specifications and Example JSONs
 
 ## Roadmap
-![Bridge Hackathon Roadmap](https://github.com/online-bridge-hackathon/bridge-hackathon/blob/master/Bridge%20Hackathon%20Roadmap.png)
+<img src="https://github.com/online-bridge-hackathon/bridge-hackathon/blob/master/images/Bridge%20Hackathon%20Roadmap.png" title="Bridge Hackathon Roadmap" height="70%" width="70%">
 
 
 ### These are some of the services we plan to deliver:
