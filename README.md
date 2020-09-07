@@ -24,7 +24,7 @@ Bridge Hackathon is a real, currently online-only hackathon, started on 23 May 2
 Listed are current services on our Production clusters.
 
 #### Deal (Prod)
-Returns [UUID](http://www.rpbridge.net/7z68.htm)-encoded randon deals as a JSON object
+Returns [UUID](http://www.rpbridge.net/7z68.htm)-encoded random deals as a JSON object
 ```
 curl https://deal.prod.globalbridge.app/api/deal
 ```
